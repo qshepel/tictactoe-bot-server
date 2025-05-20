@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 BOT_TOKEN = "7794390382:AAEtr0y3a-PArzp5bKTjm4eJqQFfneMDWeo"
-WEB_APP_URL = "https://tictactoe-miniapp.vercel.app"  # ссылка на мини-приложение
+WEB_APP_URL = "https://tictactoe-miniapp.vercel.app/"  # ссылка на мини-приложение
 
 @app.route("/", methods=["GET"])
 def home():
